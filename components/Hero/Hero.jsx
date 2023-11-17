@@ -17,14 +17,14 @@ export default function Hero() {
                   Create amazing tools and integrations for 1 million users or
                   customize Marvel for your team.
                 </p>
-                <div className="my-8 max-w-xl flex gap-2">
+                <div className="my-8 max-w-xl flex gap-2 justify-center lg:justify-start lg:pl-2">
                   <button
-                    className={`${poppins.className} bg-primary-blue font-medium text-base px-5 lg:px-7 py-3 rounded-full`}
+                    className={`${poppins.className} bg-primary-blue font-medium text-sm px-3 lg:text-base lg:px-7 py-3 rounded-full`}
                   >
                     Submit your app
                   </button>
                   <button
-                    className={`${poppins.className} bg-white font-medium text-black text-base px-5 lg:px-7 py-3 rounded-full`}
+                    className={`${poppins.className} bg-white font-medium text-black text-sm px-3 lg:text-base lg:px-7 py-3 rounded-full`}
                   >
                     View API Docs
                   </button>

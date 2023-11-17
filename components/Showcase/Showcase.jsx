@@ -14,7 +14,7 @@ export default function Showcase() {
             <div className="order-last lg:order-first px-10 lg:py-10">
              
               <p
-                className={` ${poppins.className} font-normal text-2xl lg:text-3xl mb-5 text-center lg:text-start`}
+                className={` ${poppins.className} font-normal text-xl lg:text-3xl mb-5 text-center lg:text-start`}
               >
                Showcase you app in our integrations directory
               </p>
@@ -68,7 +68,7 @@ export default function Showcase() {
             <div className="px-10 lg:py-10">
              
               <p
-                className={` ${poppins.className} font-normal text-2xl lg:text-3xl mb-5 text-center lg:text-start`}
+                className={` ${poppins.className} font-normal text-xl lg:text-3xl mb-5 text-center lg:text-start`}
               >
               A Slack-bot for creating and mananging prototypes
               </p>

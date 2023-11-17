@@ -28,7 +28,7 @@ export default function Features({ data }) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5 m-5">
             {data?.map((item, idx) => (
               <div
-                className="p-12 py-20  card flex flex-col w-full md:w-auto"
+                className="p-10  card flex flex-col w-full md:w-auto"
                 key={item.id}
               >
                 <div className="mb-5 flex justify-center ">
