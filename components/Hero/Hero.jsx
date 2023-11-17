@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <section className="py-20 bg-primary-gray">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 ">
           <div className="px-5 lg:10">
-            <div className="flex justify-between lg:min-h-[448px]">
+            <div className="flex md:justify-center  lg:justify-between lg:min-h-[448px]">
               <div className="py-6 md:py-12">
                 <h1 className="px-2 text-center lg:max-w-3xl lg:text-start font-semibold text-2xl lg:text-6xl">
                   Let build the future of design, now.
@@ -32,7 +32,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="px-7">
+          <div className="px-7 mx-auto">
             <img
               className="object-cover"
               src="/hero.png"

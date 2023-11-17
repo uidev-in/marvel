@@ -10,7 +10,7 @@ export default function Showcase() {
       <section className=" bg-primary-gray">
         {/* First showcase start */}
         <div className="max-w-7xl mx-auto py-10 lg:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  justify-items-center">
             <div className="order-last lg:order-first px-10 lg:py-10">
              
               <p
@@ -38,7 +38,7 @@ export default function Showcase() {
                   </button>
                 </div>
             </div>
-            <div className="px-7 order-first lg:order-last">
+            <div className="px-7 order-first lg:order-last mx-auto">
               <img
                 className="object-cover"
                 src='./showcase.png'
@@ -53,7 +53,7 @@ export default function Showcase() {
         </div>
         {/* second showcase start */}
         <div className="max-w-7xl mx-auto py-10 lg:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 justify-items-center">
           <div className="px-7 ">
               <img
                 className="object-cover"
