@@ -15,7 +15,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 function Footer() {
   return (
-    <footer className="py-5 lg:py-20 bg-primary-gray border-t border-primary-green">
+    <footer className="py-5 lg:py-20 bg-primary-gray">
       {/* desktop footer */}
       <section className="max-w-7xl mx-auto px-5 hidden md:flex">
         <div className="w-[150px] lg:w-[250px] flex justify-center">

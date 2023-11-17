@@ -36,7 +36,7 @@ export default function Features({ data }) {
                 </div>
                 <div className="">
                   <p
-                    className={` ${poppins.className} font-semibold text-primary-green text-center text-2xl mb-5`}
+                    className={` ${poppins.className} font-semibold  text-center text-2xl mb-5`}
                   >
                     {item?.title}
                   </p>
