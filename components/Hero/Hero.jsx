@@ -10,10 +10,10 @@ export default function Hero() {
           <div className="px-5 lg:10">
             <div className="flex justify-between lg:min-h-[448px]">
               <div className="py-6 md:py-12">
-                <h1 className="px-2 text-center lg:max-w-3xl lg:text-start font-semibold text-3xl lg:text-6xl">
+                <h1 className="px-2 text-center lg:max-w-3xl lg:text-start font-semibold text-2xl lg:text-6xl">
                   Let's build the future of design, now.
                 </h1>
-                <p className="text-md mt-4 text-center lg:block lg:text-start lg:pl-3  lg:max-w-lg">
+                <p className="text-md mt-4 text-center text-sm text-secondary-gray lg:block lg:text-start lg:pl-3  lg:max-w-lg">
                   Create amazing tools and integrations for 1 million users or
                   customize Marvel for your team.
                 </p>
