@@ -37,7 +37,7 @@ export default function Header() {
             <ul className="flex gap-6 items-center">
             <li className="relative group">
                 <a
-                  href="/events"
+                  href="/"
                   className={`${poppins.className} transition-all relative flex items-center font-medium text-sm px-1`}
                 >
                   Why Marvel
@@ -78,7 +78,7 @@ export default function Header() {
               
               <li>
                 <a
-                  href="/about"
+                  href="/"
                   className={`${poppins.className}  hover:after:bg-primary-blue after:transition-all after:h-[2px] transition-all after:w-full after:absolute after:-bottom-2 after:left-0 relative font-medium text-sm px-1`}
                 >
                   Enterprise
@@ -187,7 +187,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className={`${poppins.className}   relative font-medium text-base mb-2 py-4 block px-1`}
               >
                 Enterprise
@@ -195,7 +195,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className={`${poppins.className}  relative font-medium text-base mb-2 py-4 block px-1`}
               >
                Pricing
@@ -204,7 +204,7 @@ export default function Header() {
             
             <li>
               <a
-                href="#"
+                href="/"
                 className={`${poppins.className}  relative font-medium text-base mb-2 py-4 block px-1`}
               >
                 Sign In
