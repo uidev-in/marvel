@@ -22,7 +22,7 @@ export default function Showcase() {
               <p
                 className={`${poppins.className} font-normal lg:text-xl text-secondary-gray mb-5 max-w-lg text-center lg:text-start`}
               >
-              Building something special? We're always looking to work with partners who wants to help the 
+              Building something special? We are always looking to work with partners who wants to help the 
               world bring their ideas to life.
               </p>
               <div className="my-8 max-w-xl flex flex-wrap justify-center lg:justify-start gap-5 lg:gap-2">
@@ -76,7 +76,7 @@ export default function Showcase() {
               <p
                 className={`${poppins.className} font-normal lg:text-xl text-secondary-gray mb-5 max-w-lg text-center lg:text-start`}
               >
-              Building something special? We're always looking to work with partners who wants to help the 
+              Building something special? We are always looking to work with partners who wants to help the 
               world bring their ideas to life.
               </p>
               <div className="my-8 max-w-xl flex flex-wrap justify-center lg:justify-start gap-5 lg:gap-2">
