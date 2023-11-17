@@ -103,7 +103,7 @@ export default function Header() {
               </li>
               <li>
                 <button
-                  className={`${poppins.className} bg-white hover:bg-primary-blue font-medium text-black text-base px-7 py-3 rounded-full`}
+                  className={`${poppins.className} bg-white hover:bg-primary-blue font-medium text-black text-sm px-5 py-3 rounded-full`}
                 >
                   Sign up free
                 </button>
@@ -112,11 +112,11 @@ export default function Header() {
           </nav>
         </div>
         <div className="flex md:hidden px-4 justify-between items-center">
-          <a href="/">
+          <Link href="/">
           <div className="flex justify-centerce gap-1 text-white p-3">
           <Marvel className={"w-12"}/>| Developer
          </div>
-          </a>
+          </Link>
           <button onClick={toggleMenu} className="cursor-pointer">
             <span
               className={`${
@@ -168,48 +168,48 @@ export default function Header() {
               <div className={`${expanded ? "" : "hidden"} px-4`}>
                 <ul>
                   <li>
-                    <a href="/" className="py-2 block">
+                    <Link href="/" className="py-2 block">
                     Marvel 1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/" className="py-2 block">
+                    <Link href="/" className="py-2 block">
                     Marvel 2
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/" className="py-2 block">
+                  <Link href="/" className="py-2 block">
                     Marvel 2
-                    </a>
+                    </Link>
                   </li>
                  
                 </ul>
               </div>
             </li>
             <li>
-              <a
+            <Link
                 href="/"
                 className={`${poppins.className}   relative font-medium text-base mb-2 py-4 block px-1`}
               >
                 Enterprise
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+            <Link
                 href="/"
                 className={`${poppins.className}  relative font-medium text-base mb-2 py-4 block px-1`}
               >
                Pricing
-              </a>
+              </Link>
             </li>
             
             <li>
-              <a
+            <Link
                 href="/"
                 className={`${poppins.className}  relative font-medium text-base mb-2 py-4 block px-1`}
               >
                 Sign In
-              </a>
+              </Link>
             </li>
             <li>
               <button
