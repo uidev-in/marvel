@@ -2,6 +2,7 @@
 import { Poppins } from "next/font/google";
 import { useEffect, useState } from "react";
 import { Marvel } from "../Icons/Marvel";
+import Link from "next/link";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 export default function Header() {
@@ -28,15 +29,15 @@ export default function Header() {
     <>
       <header className="bg-primary-gray text-secondary-gray z-[99] sticky top-0">
         <div className="max-w-7xl w-full mx-auto hidden md:flex items-center justify-between px-4 py-4">
-          <a href="/">
+          <Link href="/">
          <div className="flex justify-centerce gap-1 text-white">
           <Marvel className={" w-16"}/>| Developer
          </div>
-          </a>
+          </Link>
           <nav>
             <ul className="flex gap-6 items-center">
             <li className="relative group">
-                <a
+            <Link
                   href="/"
                   className={`${poppins.className} transition-all relative flex items-center font-medium text-sm px-1`}
                 >
@@ -54,51 +55,51 @@ export default function Header() {
                       d="m1 1 4.5 4.5L10 1"
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className="absolute top-5 bg-primary-gray hidden py-2 group-hover:block px-4 w-48 rounded-sm shadow-md">
                   <ul>
                     <li>
-                      <a href="/" className="py-2 block">
+                      <Link href="/" className="py-2 block">
                       Marvel 1
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/rn" className="py-2 block">
+                      <Link href="/rn" className="py-2 block">
                       Marvel 2
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/" className="py-2 block">
+                      <Link href="/" className="py-2 block">
                       Marvel 3
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </li>
               
               <li>
-                <a
+              <Link
                   href="/"
                   className={`${poppins.className}  hover:after:bg-primary-blue after:transition-all after:h-[2px] transition-all after:w-full after:absolute after:-bottom-2 after:left-0 relative font-medium text-sm px-1`}
                 >
                   Enterprise
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+              <Link
                   href="/"
                   className={`${poppins.className}  hover:after:bg-primary-blue after:transition-all after:h-[2px] transition-all after:w-full after:absolute after:-bottom-2 after:left-0 relative font-medium text-sm px-1`}
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+              <Link
                   href="#"
                   className={`${poppins.className}  hover:after:bg-primary-blue after:transition-all after:h-[2px] transition-all after:w-full after:absolute after:-bottom-2 after:left-0 relative font-medium text-sm px-1`}
                 >
                   Sign In
-                </a>
+                </Link>
               </li>
               <li>
                 <button
